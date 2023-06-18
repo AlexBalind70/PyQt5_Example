@@ -17,7 +17,7 @@ The mouseMoveEvent, mousePressEvent, and mouseReleaseEvent functions handle mous
 They allow the user to move the main window by clicking and dragging it with the left mouse button.
 
 <div id="header" align="center">
-  <img src="https://github.com/AlexBalind70/PyQt5_Example/assets/102526063/4cdcb7e2-a70a-4753-ab55-f25148819fda" width="100"/>
+  <img src="https://github.com/AlexBalind70/PyQt5_Example/assets/102526063/4cdcb7e2-a70a-4753-ab55-f25148819fda" width="600"/>
 </div>
 
 
