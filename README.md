@@ -15,6 +15,10 @@ Otherwise, a warning is displayed.
 The startAnimation and stopAnimation functions are used to start and stop the animation on the label using QMovie.
 The mouseMoveEvent, mousePressEvent, and mouseReleaseEvent functions handle mouse events. 
 They allow the user to move the main window by clicking and dragging it with the left mouse button.
-![№1-LoginPage](https://github.com/AlexBalind70/PyQt5_Example/assets/102526063/4cdcb7e2-a70a-4753-ab55-f25148819fda)
+
+<div id="header" align="center">
+  <img src="[https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif](https://github.com/AlexBalind70/PyQt5_Example/assets/102526063/4cdcb7e2-a70a-4753-ab55-f25148819fda)" width="100"/>
+</div>
+
 
 
