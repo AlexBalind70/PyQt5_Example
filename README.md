@@ -3,21 +3,18 @@
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
 
-<div align="center">
-  <a href="https://t.me/alex_balind">
-    <img src="https://github.com/AlexBalind70/PyQt5_Example/assets/102526063/d3507ed7-5535-4a25-9069-ab853c4a680c" width="120"/>
-  </a>
-</div>
-
-
-
-
-
 <h3 align="left">In this repository, I am sharing my projects developed using the Pyqt5 framework. 
 For each project, I will provide photos and GIF animations to help you understand what the programs are capable of. 
 I publish these projects to share with you and demonstrate the potential of the Pyqt5 library for GUI. 
 If you need detailed information on how to create programs, 
 feel free to contact me at <a href="https://t.me/alex_balind">Telegram <a/> , and I will be happy to assist you.</h3>
+
+<div align="center">
+ <img src="https://github.com/AlexBalind70/PyQt5_Example/assets/102526063/9218780e-b28a-4d2b-ad6b-001361833a8c" 
+     alt="Telegram" 
+     width="600">
+</div>
+
 
 
 <h1 aligin="center"> №1-LoginPage</h1>
