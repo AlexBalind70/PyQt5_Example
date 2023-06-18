@@ -1,7 +1,7 @@
 # PyQt5_Example
 <h1 align="center">Hi there, I'm Alex 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="right">In this repository, I am sharing my projects developed using the Pyqt5 framework. 
+<h3 align="left">In this repository, I am sharing my projects developed using the Pyqt5 framework. 
 For each project, I will provide photos and GIF animations to help you understand what the programs are capable of. 
 I publish these projects to share with you and demonstrate the potential of the Pyqt5 library for GUI. 
 If you need detailed information on how to create programs, 
