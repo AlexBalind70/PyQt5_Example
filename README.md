@@ -8,7 +8,8 @@ If you need detailed information on how to create programs,
 feel free to contact me at sashatatarnikov73@gmail.com, and I will be happy to assist you.</h3>
 
 
-<h1 aligin="center"> №1-LoginPage
+<h1 aligin="center"> №1-LoginPage</h1>
+
 The main window contains various functions and events to handle user actions. 
 It has a custom user interface defined in the "login_UI.py" file using the Ui_MainWindow class.
 The loginBtn_clicked function is called when the "loginButton" is clicked and checks the entered username and password. 
