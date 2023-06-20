@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/cloud.svg</file>
+    <file>icons/140-1405202_windy-weather-icon-wind-weather-symbols-clipart 1.svg</file>
+    <file>icons/Group.svg</file>
+    <file>icons/map-pin (1).svg</file>
+    <file>icons/cloud-drizzle.svg</file>
+    <file>icons/cloud-lightning.svg</file>
+    <file>icons/cloud-off.svg</file>
+    <file>icons/cloud-rain.svg</file>
+    <file>icons/cloud-snow.svg</file>
+    <file>icons/droplet.svg</file>
+    <file>icons/minus.svg</file>
+    <file>icons/search.svg</file>
+    <file>icons/sun.svg</file>
+    <file>icons/umbrella.svg</file>
+    <file>icons/x (1).svg</file>
+    <file>icons/x.svg</file>
+    <file>icons/x-circle.svg</file>
+  </qresource>
+  <qresource prefix="image">
+    <file>images/cloud.gif</file>
+    <file>images/rain.gif</file>
+    <file>images/raccoon.png</file>
+    <file>images/night.gif</file>
+    <file>images/sun1.gif</file>
+    <file>images/sun.gif</file>
+  </qresource>
+</RCC>
