@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon/chevron-left (1).svg</file>
+    <file>icon/new_notes.svg</file>
+    <file>icon/eye (1).svg</file>
+    <file>icon/eye-off (1).svg</file>
+    <file>icon/x-circle 1.svg</file>
+    <file>icon/x-circle 2.svg</file>
+  </qresource>
+  <qresource prefix="image">
+    <file>images/logo_login.png</file>
+    <file>images/logo_main.png</file>
+    <file>images/logo_panel.png</file>
+    <file>images/racoon.gif</file>
+  </qresource>
+</RCC>

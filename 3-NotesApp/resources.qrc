@@ -1,0 +1,34 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>static/icon/trash-2.svg</file>
+    <file>static/icon/save.svg</file>
+    <file>static/icon/down.svg</file>
+    <file>static/icon/up.svg</file>
+    <file>static/icon/leftsvg.svg</file>
+    <file>static/icon/chevron-up.svg</file>
+    <file>static/icon/chevron-down.svg</file>
+    <file>static/icon/x-circle 1.svg</file>
+    <file>static/icon/calendar (1).svg</file>
+    <file>static/icon/x-circle 2.svg</file>
+    <file>static/icon/calendar.svg</file>
+    <file>static/icon/eye (1).svg</file>
+    <file>static/icon/eye-off (1).svg</file>
+    <file>static/icon/home.svg</file>
+    <file>static/icon/menu.svg</file>
+    <file>static/icon/minus-circle.svg</file>
+    <file>static/icon/new_notes.svg</file>
+    <file>static/icon/note.svg</file>
+    <file>static/icon/settings.svg</file>
+    <file>static/icon/Vector.svg</file>
+    <file>static/icon/x-circle 1.svg</file>
+    <file>static/icon/x-circle 2.svg</file>
+    <file>static/icon/new_notes.svg</file>
+  </qresource>
+  <qresource prefix="image">
+    <file>static/images/logo_login.png</file>
+    <file>static/images/aquarium.png</file>
+    <file>static/images/logo_main.png</file>
+    <file>static/images/logo_panel.png</file>
+    <file>static/images/racoon.gif</file>
+  </qresource>
+</RCC>
