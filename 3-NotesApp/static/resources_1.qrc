@@ -1,0 +1,33 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icon/left.svg</file>
+    <file>icon/calendar (1).svg</file>
+    <file>icon/calendar.svg</file>
+    <file>icon/chevron-down.svg</file>
+    <file>icon/chevron-left (1).svg</file>
+    <file>icon/chevron-up.svg</file>
+    <file>icon/down.svg</file>
+    <file>icon/eye (1).svg</file>
+    <file>icon/eye-off (1).svg</file>
+    <file>icon/home.svg</file>
+    <file>icon/leftsvg.svg</file>
+    <file>icon/menu.svg</file>
+    <file>icon/minus-circle.svg</file>
+    <file>icon/new_notes.svg</file>
+    <file>icon/note.svg</file>
+    <file>icon/save.svg</file>
+    <file>icon/settings.svg</file>
+    <file>icon/trash-2.svg</file>
+    <file>icon/up.svg</file>
+    <file>icon/Vector.svg</file>
+    <file>icon/x-circle 1.svg</file>
+    <file>icon/x-circle 2.svg</file>
+  </qresource>
+  <qresource prefix="image">
+    <file>images/aquarium.png</file>
+    <file>images/logo_login.png</file>
+    <file>images/logo_main.png</file>
+    <file>images/logo_panel.png</file>
+    <file>images/racoon.gif</file>
+  </qresource>
+</RCC>

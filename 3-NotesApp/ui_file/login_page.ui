@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>LoginWindow</class>
+ <widget class="QMainWindow" name="LoginWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -126,7 +126,7 @@ border-top-left-radius: 70px;</string>
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap resource="../static/resources.qrc">:/image/images/racoon.gif</pixmap>
+          <pixmap resource="../static/resources_1.qrc">:/image/images/racoon.gif</pixmap>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -294,7 +294,7 @@ background-color: rgb(255, 255, 255);</string>
                     <string/>
                    </property>
                    <property name="pixmap">
-                    <pixmap resource="../static/resources.qrc">:/image/images/logo_login.png</pixmap>
+                    <pixmap resource="../static/resources_1.qrc">:/image/images/logo_login.png</pixmap>
                    </property>
                    <property name="alignment">
                     <set>Qt::AlignCenter</set>
@@ -413,8 +413,8 @@ background-color: transparent;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../static/resources.qrc">
-                     <normaloff>:/icon/icon/eye (1).svg</normaloff>:/icon/icon/eye (1).svg</iconset>
+                    <iconset resource="../static/resources_1.qrc">
+                     <normaloff>:/icons/icon/eye (1).svg</normaloff>:/icons/icon/eye (1).svg</iconset>
                    </property>
                   </widget>
                  </item>
@@ -450,10 +450,16 @@ background-color: rgb(105, 0, 255);
                    <property name="text">
                     <string>Sign Up</string>
                    </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item row="8" column="0">
                   <widget class="QLabel" name="message_Label">
+                   <property name="enabled">
+                    <bool>true</bool>
+                   </property>
                    <property name="font">
                     <font>
                      <family>Arial</family>
@@ -535,7 +541,7 @@ background-color: rgb(105, 0, 255);
                     <string/>
                    </property>
                    <property name="pixmap">
-                    <pixmap resource="../static/resources.qrc">:/image/images/logo_login.png</pixmap>
+                    <pixmap resource="../static/resources_1.qrc">:/image/images/logo_login.png</pixmap>
                    </property>
                    <property name="alignment">
                     <set>Qt::AlignCenter</set>
@@ -696,8 +702,8 @@ background-color: rgb(105, 0, 255);
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../static/resources.qrc">
-                     <normaloff>:/icon/icon/eye (1).svg</normaloff>:/icon/icon/eye (1).svg</iconset>
+                    <iconset resource="../static/resources_1.qrc">
+                     <normaloff>:/icons/icon/eye (1).svg</normaloff>:/icons/icon/eye (1).svg</iconset>
                    </property>
                   </widget>
                  </item>
@@ -742,8 +748,8 @@ background-color: rgb(105, 0, 255);
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="../static/resources.qrc">
-                  <normaloff>:/icon/icon/chevron-left (1).svg</normaloff>:/icon/icon/chevron-left (1).svg</iconset>
+                 <iconset resource="../static/resources_1.qrc">
+                  <normaloff>:/icons/icon/left.svg</normaloff>:/icons/icon/left.svg</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -769,8 +775,8 @@ background-color: rgb(105, 0, 255);
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../static/resources.qrc">
-           <normaloff>:/icon/icon/x-circle 2.svg</normaloff>:/icon/icon/x-circle 2.svg</iconset>
+          <iconset resource="../static/resources_1.qrc">
+           <normaloff>:/icons/icon/x-circle 2.svg</normaloff>:/icons/icon/x-circle 2.svg</iconset>
          </property>
         </widget>
        </item>
@@ -781,7 +787,7 @@ background-color: rgb(105, 0, 255);
   </widget>
  </widget>
  <resources>
-  <include location="../static/resources.qrc"/>
+  <include location="../static/resources_1.qrc"/>
  </resources>
  <connections>
   <connection>

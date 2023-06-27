@@ -11,12 +11,12 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(882, 494)
-        MainWindow.setMouseTracking(True)
-        MainWindow.setStyleSheet("QWidget#widget_3,\n"
+class Ui_MainPageWindow(object):
+    def setupUi(self, MainPageWindow):
+        MainPageWindow.setObjectName("MainPageWindow")
+        MainPageWindow.resize(882, 494)
+        MainPageWindow.setMouseTracking(True)
+        MainPageWindow.setStyleSheet("QWidget#widget_3,\n"
 "QWidget#page,\n"
 "QWidget#page_2,\n"
 "QWidget#page_3,\n"
@@ -73,12 +73,12 @@ class Ui_MainWindow(object):
 "\n"
 " QComboBox::down-arrow {\n"
 "\n"
-"        image: url(:/icon/static/icon/chevron-down.svg);\n"
+"        image: url(:/icons/icon/chevron-down.svg);\n"
 "    }\n"
 "\n"
 "QComboBox::down-arrow:on {\n"
 "\n"
-"    image: url(:/icon/static/icon/chevron-down.svg);\n"
+"    image: url(:/icons/icon/up.svg);\n"
 "    }\n"
 "\n"
 "\n"
@@ -129,14 +129,14 @@ class Ui_MainWindow(object):
 "    background: transparent;\n"
 "    border: none;\n"
 "    width: 40px;\n"
-"    qproperty-icon: url(:/icon/static/icon/Vector.svg);\n"
+"    qproperty-icon: url(:/icons/icon/Vector.svg);\n"
 "}\n"
 "\n"
 "QToolButton#qt_calendar_nextmonth {\n"
 "    background: transparent;\n"
 "    border: none;\n"
 "    width: 40px;\n"
-"    qproperty-icon: url(:/icon/static/icon/leftsvg.svg);\n"
+"    qproperty-icon: url(:/icons/icon/leftsvg.svg);\n"
 "}\n"
 "\n"
 "QCalendarWidget#calendarWidget {\n"
@@ -152,11 +152,11 @@ class Ui_MainWindow(object):
 "    }\n"
 "\n"
 "QCalendarWidget QSpinBox::up-button{\n"
-"    image: url(:/icon/static/icon/up.svg);width:15px;\n"
+"    image: url(:/icons/icon/up.svg);width:15px;\n"
 "}\n"
 "\n"
 "QCalendarWidget QSpinBox::down-button{\n"
-"    image: url(:/icon/static/icon/down.svg);width:15px;\n"
+"    image: url(:/icons/icon/down.svg);width:15px;\n"
 "}\n"
 "\n"
 "QCheckBox {\n"
@@ -210,9 +210,9 @@ class Ui_MainWindow(object):
 "\n"
 "\n"
 "")
-        MainWindow.setAnimated(True)
-        MainWindow.setDocumentMode(False)
-        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        MainPageWindow.setAnimated(True)
+        MainPageWindow.setDocumentMode(False)
+        self.centralwidget = QtWidgets.QWidget(MainPageWindow)
         self.centralwidget.setAutoFillBackground(False)
         self.centralwidget.setStyleSheet("#left_menu\n"
 "{\n"
@@ -345,7 +345,7 @@ class Ui_MainWindow(object):
         self.button_left_Notes.setStyleSheet("")
         self.button_left_Notes.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/icon/static/icon/note.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/icons/icon/note.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.button_left_Notes.setIcon(icon)
         self.button_left_Notes.setIconSize(QtCore.QSize(26, 26))
         self.button_left_Notes.setCheckable(True)
@@ -357,7 +357,7 @@ class Ui_MainWindow(object):
         self.button_left_Home.setStyleSheet("")
         self.button_left_Home.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap(":/icon/static/icon/home.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap(":/icons/icon/home.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.button_left_Home.setIcon(icon1)
         self.button_left_Home.setIconSize(QtCore.QSize(26, 26))
         self.button_left_Home.setCheckable(True)
@@ -369,7 +369,7 @@ class Ui_MainWindow(object):
         self.button_left_Settings.setStyleSheet("")
         self.button_left_Settings.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap(":/icon/static/icon/settings.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap(":/icons/icon/settings.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.button_left_Settings.setIcon(icon2)
         self.button_left_Settings.setIconSize(QtCore.QSize(24, 24))
         self.button_left_Settings.setCheckable(True)
@@ -383,7 +383,7 @@ class Ui_MainWindow(object):
         self.button_leftCalendar.setStyleSheet("")
         self.button_leftCalendar.setText("")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap(":/icon/static/icon/calendar (1).svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon3.addPixmap(QtGui.QPixmap(":/icons/icon/calendar (1).svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.button_leftCalendar.setIcon(icon3)
         self.button_leftCalendar.setIconSize(QtCore.QSize(26, 26))
         self.button_leftCalendar.setCheckable(True)
@@ -395,7 +395,7 @@ class Ui_MainWindow(object):
         self.buttonMenu.setStyleSheet("")
         self.buttonMenu.setText("")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap(":/icon/static/icon/menu.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon4.addPixmap(QtGui.QPixmap(":/icons/icon/menu.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.buttonMenu.setIcon(icon4)
         self.buttonMenu.setIconSize(QtCore.QSize(26, 26))
         self.buttonMenu.setCheckable(True)
@@ -444,7 +444,7 @@ class Ui_MainWindow(object):
         self.buttonBack.setStyleSheet("")
         self.buttonBack.setText("")
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap(":/icon/static/icon/Vector.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon5.addPixmap(QtGui.QPixmap(":/icons/icon/Vector.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.buttonBack.setIcon(icon5)
         self.buttonBack.setCheckable(True)
         self.buttonBack.setObjectName("buttonBack")
@@ -480,7 +480,7 @@ class Ui_MainWindow(object):
         self.gridLayout_2.addItem(spacerItem1, 5, 0, 1, 1)
         self.logoLabel = QtWidgets.QLabel(self.main_Menu)
         self.logoLabel.setText("")
-        self.logoLabel.setPixmap(QtGui.QPixmap(":/image/static/images/logo_panel.png"))
+        self.logoLabel.setPixmap(QtGui.QPixmap(":/image/images/logo_panel.png"))
         self.logoLabel.setAlignment(QtCore.Qt.AlignCenter)
         self.logoLabel.setObjectName("logoLabel")
         self.gridLayout_2.addWidget(self.logoLabel, 6, 0, 1, 2)
@@ -507,7 +507,7 @@ class Ui_MainWindow(object):
         self.pushButton_12.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_12.setText("")
         icon6 = QtGui.QIcon()
-        icon6.addPixmap(QtGui.QPixmap(":/icon/static/icon/minus-circle.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon6.addPixmap(QtGui.QPixmap(":/icons/icon/minus-circle.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_12.setIcon(icon6)
         self.pushButton_12.setIconSize(QtCore.QSize(16, 16))
         self.pushButton_12.setObjectName("pushButton_12")
@@ -519,7 +519,7 @@ class Ui_MainWindow(object):
         self.pushButton_11.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_11.setText("")
         icon7 = QtGui.QIcon()
-        icon7.addPixmap(QtGui.QPixmap(":/icon/static/icon/x-circle 1.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon7.addPixmap(QtGui.QPixmap(":/icons/icon/x-circle 1.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_11.setIcon(icon7)
         self.pushButton_11.setObjectName("pushButton_11")
         self.gridLayout_5.addWidget(self.pushButton_11, 0, 2, 1, 1)
@@ -595,7 +595,7 @@ class Ui_MainWindow(object):
         self.label_15 = QtWidgets.QLabel(self.page)
         self.label_15.setMaximumSize(QtCore.QSize(175, 160))
         self.label_15.setText("")
-        self.label_15.setPixmap(QtGui.QPixmap(":/image/static/images/aquarium.png"))
+        self.label_15.setPixmap(QtGui.QPixmap(":/image/images/aquarium.png"))
         self.label_15.setScaledContents(True)
         self.label_15.setObjectName("label_15")
         self.gridLayout_10.addWidget(self.label_15, 5, 3, 1, 3)
@@ -678,7 +678,7 @@ class Ui_MainWindow(object):
         self.pushButton_13.setStyleSheet("background-color: transparent;")
         self.pushButton_13.setText("")
         icon8 = QtGui.QIcon()
-        icon8.addPixmap(QtGui.QPixmap(":/icon/static/icon/trash-2.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon8.addPixmap(QtGui.QPixmap(":/icons/static/icon/trash-2.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_13.setIcon(icon8)
         self.pushButton_13.setObjectName("pushButton_13")
         self.gridLayout_6.addWidget(self.pushButton_13, 0, 6, 1, 1)
@@ -1288,7 +1288,7 @@ class Ui_MainWindow(object):
 "border-radius: 20px;")
         self.button_add_note.setText("")
         icon9 = QtGui.QIcon()
-        icon9.addPixmap(QtGui.QPixmap(":/icon/static/icon/new_notes.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon9.addPixmap(QtGui.QPixmap(":/icons/icon/new_notes.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.button_add_note.setIcon(icon9)
         self.button_add_note.setIconSize(QtCore.QSize(70, 70))
         self.button_add_note.setObjectName("button_add_note")
@@ -1461,9 +1461,9 @@ class Ui_MainWindow(object):
         self.stackedWidget.addWidget(self.page_4)
         self.gridLayout_4.addWidget(self.stackedWidget, 1, 0, 1, 1)
         self.gridLayout.addWidget(self.widget_3, 0, 2, 1, 1)
-        MainWindow.setCentralWidget(self.centralwidget)
+        MainPageWindow.setCentralWidget(self.centralwidget)
 
-        self.retranslateUi(MainWindow)
+        self.retranslateUi(MainPageWindow)
         self.stackedWidget.setCurrentIndex(0)
         self.buttonHome.toggled['bool'].connect(self.buttonHome.setChecked) # type: ignore
         self.buttonCalendar.toggled['bool'].connect(self.buttonCalendar.setChecked) # type: ignore
@@ -1477,70 +1477,70 @@ class Ui_MainWindow(object):
         self.buttonBack.pressed.connect(self.left_menu.show) # type: ignore
         self.buttonMenu.pressed.connect(self.main_Menu.show) # type: ignore
         self.buttonMenu.pressed.connect(self.left_menu.close) # type: ignore
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainPageWindow)
 
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self, MainPageWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.buttonCalendar.setText(_translate("MainWindow", "Calendar"))
-        self.buttonHome.setText(_translate("MainWindow", "Home"))
-        self.buttonSettings.setText(_translate("MainWindow", "Settings"))
-        self.buttonNotes.setText(_translate("MainWindow", "Notes"))
-        self.label.setText(_translate("MainWindow", "20:20"))
-        self.label_2.setText(_translate("MainWindow", "Jun 21"))
-        self.label_16.setText(_translate("MainWindow", "Progress 0%"))
-        self.label_6.setText(_translate("MainWindow", "Добавить описание страниц на сайте\n"
+        MainPageWindow.setWindowTitle(_translate("MainPageWindow", "MainWindow"))
+        self.buttonCalendar.setText(_translate("MainPageWindow", "Calendar"))
+        self.buttonHome.setText(_translate("MainPageWindow", "Home"))
+        self.buttonSettings.setText(_translate("MainPageWindow", "Settings"))
+        self.buttonNotes.setText(_translate("MainPageWindow", "Notes"))
+        self.label.setText(_translate("MainPageWindow", "20:20"))
+        self.label_2.setText(_translate("MainPageWindow", "Jun 21"))
+        self.label_16.setText(_translate("MainPageWindow", "Progress 0%"))
+        self.label_6.setText(_translate("MainPageWindow", "Добавить описание страниц на сайте\n"
 "Удалить баги"))
-        self.label_4.setText(_translate("MainWindow", "Work"))
-        self.label_3.setText(_translate("MainWindow", "Theme:"))
-        self.label_5.setText(_translate("MainWindow", "20:20 jun 21"))
-        self.checkBox_3.setText(_translate("MainWindow", "Done"))
-        self.checkBox_2.setText(_translate("MainWindow", "Done"))
-        self.label_9.setText(_translate("MainWindow", "Theme:"))
-        self.label_7.setText(_translate("MainWindow", "Добавить описание страниц на сайте\n"
+        self.label_4.setText(_translate("MainPageWindow", "Work"))
+        self.label_3.setText(_translate("MainPageWindow", "Theme:"))
+        self.label_5.setText(_translate("MainPageWindow", "20:20 jun 21"))
+        self.checkBox_3.setText(_translate("MainPageWindow", "Done"))
+        self.checkBox_2.setText(_translate("MainPageWindow", "Done"))
+        self.label_9.setText(_translate("MainPageWindow", "Theme:"))
+        self.label_7.setText(_translate("MainPageWindow", "Добавить описание страниц на сайте\n"
 "Удалить баги"))
-        self.label_8.setText(_translate("MainWindow", "Work"))
-        self.label_10.setText(_translate("MainWindow", "20:20 jun 21"))
-        self.label_11.setText(_translate("MainWindow", "Добавить описание страниц на сайте\n"
+        self.label_8.setText(_translate("MainPageWindow", "Work"))
+        self.label_10.setText(_translate("MainPageWindow", "20:20 jun 21"))
+        self.label_11.setText(_translate("MainPageWindow", "Добавить описание страниц на сайте\n"
 "Удалить баги"))
-        self.label_12.setText(_translate("MainWindow", "Work"))
-        self.label_13.setText(_translate("MainWindow", "Theme:"))
-        self.label_14.setText(_translate("MainWindow", "20:20 jun 21"))
-        self.checkBox.setText(_translate("MainWindow", "Done"))
-        self.label_21.setText(_translate("MainWindow", "20:20 jun 21"))
-        self.label_22.setText(_translate("MainWindow", "Добавить описание страниц на сайте\n"
+        self.label_12.setText(_translate("MainPageWindow", "Work"))
+        self.label_13.setText(_translate("MainPageWindow", "Theme:"))
+        self.label_14.setText(_translate("MainPageWindow", "20:20 jun 21"))
+        self.checkBox.setText(_translate("MainPageWindow", "Done"))
+        self.label_21.setText(_translate("MainPageWindow", "20:20 jun 21"))
+        self.label_22.setText(_translate("MainPageWindow", "Добавить описание страниц на сайте\n"
 "Удалить баги"))
-        self.label_23.setText(_translate("MainWindow", "Work"))
-        self.label_24.setText(_translate("MainWindow", "Theme:"))
-        self.label_17.setText(_translate("MainWindow", "Work"))
-        self.label_18.setText(_translate("MainWindow", "Theme:"))
-        self.label_19.setText(_translate("MainWindow", "20:20 jun 21"))
-        self.label_20.setText(_translate("MainWindow", "Добавить описание страниц на сайте\n"
+        self.label_23.setText(_translate("MainPageWindow", "Work"))
+        self.label_24.setText(_translate("MainPageWindow", "Theme:"))
+        self.label_17.setText(_translate("MainPageWindow", "Work"))
+        self.label_18.setText(_translate("MainPageWindow", "Theme:"))
+        self.label_19.setText(_translate("MainPageWindow", "20:20 jun 21"))
+        self.label_20.setText(_translate("MainPageWindow", "Добавить описание страниц на сайте\n"
 "Удалить баги"))
-        self.label_29.setText(_translate("MainWindow", "Work"))
-        self.label_30.setText(_translate("MainWindow", "20:20 jun 21"))
-        self.label_32.setText(_translate("MainWindow", "Добавить описание страниц на сайте\n"
+        self.label_29.setText(_translate("MainPageWindow", "Work"))
+        self.label_30.setText(_translate("MainPageWindow", "20:20 jun 21"))
+        self.label_32.setText(_translate("MainPageWindow", "Добавить описание страниц на сайте\n"
 "Удалить баги"))
-        self.label_31.setText(_translate("MainWindow", "Theme:"))
-        self.label_33.setText(_translate("MainWindow", "Work"))
-        self.label_34.setText(_translate("MainWindow", "20:20 jun 21"))
-        self.label_35.setText(_translate("MainWindow", "Theme:"))
-        self.label_36.setText(_translate("MainWindow", "Добавить описание страниц на сайте\n"
+        self.label_31.setText(_translate("MainPageWindow", "Theme:"))
+        self.label_33.setText(_translate("MainPageWindow", "Work"))
+        self.label_34.setText(_translate("MainPageWindow", "20:20 jun 21"))
+        self.label_35.setText(_translate("MainPageWindow", "Theme:"))
+        self.label_36.setText(_translate("MainPageWindow", "Добавить описание страниц на сайте\n"
 "Удалить баги"))
-        self.label_37.setText(_translate("MainWindow", "Work"))
-        self.label_38.setText(_translate("MainWindow", "20:20 jun 21"))
-        self.label_39.setText(_translate("MainWindow", "Theme:"))
-        self.label_40.setText(_translate("MainWindow", "Добавить описание страниц на сайте\n"
+        self.label_37.setText(_translate("MainPageWindow", "Work"))
+        self.label_38.setText(_translate("MainPageWindow", "20:20 jun 21"))
+        self.label_39.setText(_translate("MainPageWindow", "Theme:"))
+        self.label_40.setText(_translate("MainPageWindow", "Добавить описание страниц на сайте\n"
 "Удалить баги"))
-        self.label_26.setText(_translate("MainWindow", "Theme:"))
-        self.label_41.setText(_translate("MainWindow", "Check update:"))
-        self.comboBox.setItemText(0, _translate("MainWindow", "English"))
-        self.comboBox.setItemText(1, _translate("MainWindow", "Russian"))
-        self.button_update.setText(_translate("MainWindow", "Update"))
-        self.label_27.setText(_translate("MainWindow", "You don\'t have \n"
+        self.label_26.setText(_translate("MainPageWindow", "Theme:"))
+        self.label_41.setText(_translate("MainPageWindow", "Check update:"))
+        self.comboBox.setItemText(0, _translate("MainPageWindow", "English"))
+        self.comboBox.setItemText(1, _translate("MainPageWindow", "Russian"))
+        self.button_update.setText(_translate("MainPageWindow", "Update"))
+        self.label_27.setText(_translate("MainPageWindow", "You don\'t have \n"
 "any updates"))
-        self.label_28.setText(_translate("MainWindow", "Notifications in \n"
+        self.label_28.setText(_translate("MainPageWindow", "Notifications in \n"
 "Telegram:"))
-        self.label_25.setText(_translate("MainWindow", "Language: "))
-        self.button_notifications.setText(_translate("MainWindow", "Disable"))
-import resources_rc
+        self.label_25.setText(_translate("MainPageWindow", "Language: "))
+        self.button_notifications.setText(_translate("MainPageWindow", "Disable"))
+import static.resources_rc

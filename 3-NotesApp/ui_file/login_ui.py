@@ -11,16 +11,16 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(700, 400)
-        MainWindow.setStyleSheet("QLineEdit{\n"
+class Ui_LoginWindow(object):
+    def setupUi(self, LoginWindow):
+        LoginWindow.setObjectName("LoginWindow")
+        LoginWindow.resize(700, 400)
+        LoginWindow.setStyleSheet("QLineEdit{\n"
 "    border:none;\n"
 "    border-bottom: 2px solid rgb(105, 0, 255);\n"
 "    border-radius: 3px;\n"
 "}")
-        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget = QtWidgets.QWidget(LoginWindow)
         self.centralwidget.setStyleSheet("background-color: transparent;\n"
 "")
         self.centralwidget.setObjectName("centralwidget")
@@ -164,7 +164,7 @@ class Ui_MainWindow(object):
         self.vision_pass_Buttom.setStyleSheet("border:none;")
         self.vision_pass_Buttom.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/icon/icon/eye (1).svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/icons/icon/eye (1).svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.vision_pass_Buttom.setIcon(icon)
         self.vision_pass_Buttom.setObjectName("vision_pass_Buttom")
         self.gridLayout_4.addWidget(self.vision_pass_Buttom, 6, 1, 1, 1)
@@ -182,9 +182,11 @@ class Ui_MainWindow(object):
 "background-color: rgb(105, 0, 255);\n"
 "\n"
 "")
+        self.sign_up_Buttom.setCheckable(True)
         self.sign_up_Buttom.setObjectName("sign_up_Buttom")
         self.gridLayout_4.addWidget(self.sign_up_Buttom, 7, 0, 1, 2, QtCore.Qt.AlignHCenter|QtCore.Qt.AlignVCenter)
         self.message_Label = QtWidgets.QLabel(self.widget_3)
+        self.message_Label.setEnabled(True)
         font = QtGui.QFont()
         font.setFamily("Arial")
         font.setBold(True)
@@ -310,14 +312,14 @@ class Ui_MainWindow(object):
         self.gridLayout_8.addItem(spacerItem10, 1, 2, 1, 1)
         spacerItem11 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
         self.gridLayout_8.addItem(spacerItem11, 2, 1, 1, 1)
-        self.pushButton = QtWidgets.QPushButton(self.login_Page)
-        self.pushButton.setText("")
+        self.back_Button = QtWidgets.QPushButton(self.login_Page)
+        self.back_Button.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap(":/icon/icon/chevron-left (1).svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.pushButton.setIcon(icon1)
-        self.pushButton.setIconSize(QtCore.QSize(24, 24))
-        self.pushButton.setObjectName("pushButton")
-        self.gridLayout_8.addWidget(self.pushButton, 0, 0, 1, 1)
+        icon1.addPixmap(QtGui.QPixmap(":/icons/icon/left.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.back_Button.setIcon(icon1)
+        self.back_Button.setIconSize(QtCore.QSize(24, 24))
+        self.back_Button.setObjectName("back_Button")
+        self.gridLayout_8.addWidget(self.back_Button, 0, 0, 1, 1)
         self.stackedWidget.addWidget(self.login_Page)
         self.gridLayout_6.addWidget(self.stackedWidget, 0, 0, 1, 1)
         self.gridLayout_2.addWidget(self.widget_4, 1, 0, 1, 1)
@@ -325,31 +327,31 @@ class Ui_MainWindow(object):
         self.closeButton.setStyleSheet("background-color: transparent;")
         self.closeButton.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap(":/icon/icon/x-circle 2.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap(":/icons/icon/x-circle 2.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.closeButton.setIcon(icon2)
         self.closeButton.setObjectName("closeButton")
         self.gridLayout_2.addWidget(self.closeButton, 0, 0, 1, 1, QtCore.Qt.AlignRight)
         self.gridLayout.addWidget(self.widget_2, 0, 1, 1, 1)
-        MainWindow.setCentralWidget(self.centralwidget)
+        LoginWindow.setCentralWidget(self.centralwidget)
 
-        self.retranslateUi(MainWindow)
+        self.retranslateUi(LoginWindow)
         self.stackedWidget.setCurrentIndex(0)
         self.create_account_Button.toggled['bool'].connect(self.create_account_Button.setChecked) # type: ignore
-        self.pushButton.toggled['bool'].connect(self.pushButton.setChecked) # type: ignore
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        self.back_Button.toggled['bool'].connect(self.back_Button.setChecked) # type: ignore
+        QtCore.QMetaObject.connectSlotsByName(LoginWindow)
 
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self, LoginWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label_5.setText(_translate("MainWindow", "Password:"))
-        self.welcome_Label.setText(_translate("MainWindow", "Welcome"))
-        self.user_Label.setText(_translate("MainWindow", "Username:"))
-        self.create_account_Button.setText(_translate("MainWindow", "Create account"))
-        self.sign_up_Buttom.setText(_translate("MainWindow", "Sign Up"))
-        self.message_Label.setText(_translate("MainWindow", "Login or password is incorrect!"))
-        self.label_8.setText(_translate("MainWindow", "Password:"))
-        self.pushButton_7.setText(_translate("MainWindow", "Login"))
-        self.repeat_psw_Label.setText(_translate("MainWindow", "Repeat the password:"))
-        self.welcome_Label_2.setText(_translate("MainWindow", "Create account"))
-        self.user_Label_2.setText(_translate("MainWindow", "Username:"))
+        LoginWindow.setWindowTitle(_translate("LoginWindow", "MainWindow"))
+        self.label_5.setText(_translate("LoginWindow", "Password:"))
+        self.welcome_Label.setText(_translate("LoginWindow", "Welcome"))
+        self.user_Label.setText(_translate("LoginWindow", "Username:"))
+        self.create_account_Button.setText(_translate("LoginWindow", "Create account"))
+        self.sign_up_Buttom.setText(_translate("LoginWindow", "Sign Up"))
+        self.message_Label.setText(_translate("LoginWindow", "Login or password is incorrect!"))
+        self.label_8.setText(_translate("LoginWindow", "Password:"))
+        self.pushButton_7.setText(_translate("LoginWindow", "Login"))
+        self.repeat_psw_Label.setText(_translate("LoginWindow", "Repeat the password:"))
+        self.welcome_Label_2.setText(_translate("LoginWindow", "Create account"))
+        self.user_Label_2.setText(_translate("LoginWindow", "Username:"))
 import static.resources_rc

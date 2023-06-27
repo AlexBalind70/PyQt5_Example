@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>MainPageWindow</class>
+ <widget class="QMainWindow" name="MainPageWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -74,12 +74,12 @@ QComboBox::drop-down {
 
  QComboBox::down-arrow {
 
-        image: url(:/icon/static/icon/chevron-down.svg);
+        image: url(:/icons/icon/chevron-down.svg);
     }
 
 QComboBox::down-arrow:on {
 
-	image: url(:/icon/static/icon/chevron-down.svg);
+	image: url(:/icons/icon/up.svg);
     }
 
 
@@ -130,14 +130,14 @@ QToolButton#qt_calendar_prevmonth {
     background: transparent;
     border: none;
     width: 40px;
-    qproperty-icon: url(:/icon/static/icon/Vector.svg);
+    qproperty-icon: url(:/icons/icon/Vector.svg);
 }
 
 QToolButton#qt_calendar_nextmonth {
     background: transparent;
     border: none;
     width: 40px;
-    qproperty-icon: url(:/icon/static/icon/leftsvg.svg);
+    qproperty-icon: url(:/icons/icon/leftsvg.svg);
 }
 
 QCalendarWidget#calendarWidget {
@@ -153,11 +153,11 @@ QCalendarWidget QTableView {
     }
 
 QCalendarWidget QSpinBox::up-button{
-	image: url(:/icon/static/icon/up.svg);width:15px;
+	image: url(:/icons/icon/up.svg);width:15px;
 }
 
 QCalendarWidget QSpinBox::down-button{
-	image: url(:/icon/static/icon/down.svg);width:15px;
+	image: url(:/icons/icon/down.svg);width:15px;
 }
 
 QCheckBox {
@@ -404,8 +404,8 @@ QPushButton:hover {
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../resources.qrc">
-           <normaloff>:/icon/static/icon/note.svg</normaloff>:/icon/static/icon/note.svg</iconset>
+          <iconset resource="../static/resources_1.qrc">
+           <normaloff>:/icons/icon/note.svg</normaloff>:/icons/icon/note.svg</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -436,8 +436,8 @@ QPushButton:hover {
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../resources.qrc">
-           <normaloff>:/icon/static/icon/home.svg</normaloff>:/icon/static/icon/home.svg</iconset>
+          <iconset resource="../static/resources_1.qrc">
+           <normaloff>:/icons/icon/home.svg</normaloff>:/icons/icon/home.svg</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -468,8 +468,8 @@ QPushButton:hover {
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../resources.qrc">
-           <normaloff>:/icon/static/icon/settings.svg</normaloff>:/icon/static/icon/settings.svg</iconset>
+          <iconset resource="../static/resources_1.qrc">
+           <normaloff>:/icons/icon/settings.svg</normaloff>:/icons/icon/settings.svg</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -516,8 +516,8 @@ QPushButton:hover {
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../resources.qrc">
-           <normaloff>:/icon/static/icon/calendar (1).svg</normaloff>:/icon/static/icon/calendar (1).svg</iconset>
+          <iconset resource="../static/resources_1.qrc">
+           <normaloff>:/icons/icon/calendar (1).svg</normaloff>:/icons/icon/calendar (1).svg</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -548,8 +548,8 @@ QPushButton:hover {
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../resources.qrc">
-           <normaloff>:/icon/static/icon/menu.svg</normaloff>:/icon/static/icon/menu.svg</iconset>
+          <iconset resource="../static/resources_1.qrc">
+           <normaloff>:/icons/icon/menu.svg</normaloff>:/icons/icon/menu.svg</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -623,8 +623,8 @@ color: rgb(255, 255, 255);</string>
           <string>Calendar</string>
          </property>
          <property name="icon">
-          <iconset resource="../resources.qrc">
-           <normaloff>:/icon/static/icon/calendar (1).svg</normaloff>:/icon/static/icon/calendar (1).svg</iconset>
+          <iconset resource="../static/resources_1.qrc">
+           <normaloff>:/icons/icon/calendar (1).svg</normaloff>:/icons/icon/calendar (1).svg</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -650,8 +650,8 @@ color: rgb(255, 255, 255);color: rgb(255, 255, 255);</string>
           <string>Home</string>
          </property>
          <property name="icon">
-          <iconset resource="../resources.qrc">
-           <normaloff>:/icon/static/icon/home.svg</normaloff>:/icon/static/icon/home.svg</iconset>
+          <iconset resource="../static/resources_1.qrc">
+           <normaloff>:/icons/icon/home.svg</normaloff>:/icons/icon/home.svg</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -688,8 +688,8 @@ color: rgb(255, 255, 255);color: rgb(255, 255, 255);</string>
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../resources.qrc">
-           <normaloff>:/icon/static/icon/Vector.svg</normaloff>:/icon/static/icon/Vector.svg</iconset>
+          <iconset resource="../static/resources_1.qrc">
+           <normaloff>:/icons/icon/Vector.svg</normaloff>:/icons/icon/Vector.svg</iconset>
          </property>
          <property name="checkable">
           <bool>true</bool>
@@ -720,8 +720,8 @@ font: 87 10pt &quot;Arial&quot;;
           <string>Settings</string>
          </property>
          <property name="icon">
-          <iconset resource="../resources.qrc">
-           <normaloff>:/icon/static/icon/settings.svg</normaloff>:/icon/static/icon/settings.svg</iconset>
+          <iconset resource="../static/resources_1.qrc">
+           <normaloff>:/icons/icon/settings.svg</normaloff>:/icons/icon/settings.svg</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -747,8 +747,8 @@ color: rgb(255, 255, 255);</string>
           <string>Notes</string>
          </property>
          <property name="icon">
-          <iconset resource="../resources.qrc">
-           <normaloff>:/icon/static/icon/note.svg</normaloff>:/icon/static/icon/note.svg</iconset>
+          <iconset resource="../static/resources_1.qrc">
+           <normaloff>:/icons/icon/note.svg</normaloff>:/icons/icon/note.svg</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -783,7 +783,7 @@ color: rgb(255, 255, 255);</string>
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap resource="../resources.qrc">:/image/static/images/logo_panel.png</pixmap>
+          <pixmap resource="../static/resources_1.qrc">:/image/images/logo_panel.png</pixmap>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -866,8 +866,8 @@ color: rgb(255, 255, 255);</string>
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="../resources.qrc">
-              <normaloff>:/icon/static/icon/minus-circle.svg</normaloff>:/icon/static/icon/minus-circle.svg</iconset>
+             <iconset resource="../static/resources_1.qrc">
+              <normaloff>:/icons/icon/minus-circle.svg</normaloff>:/icons/icon/minus-circle.svg</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -905,8 +905,8 @@ color: rgb(255, 255, 255);</string>
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="../resources.qrc">
-              <normaloff>:/icon/static/icon/x-circle 1.svg</normaloff>:/icon/static/icon/x-circle 1.svg</iconset>
+             <iconset resource="../static/resources_1.qrc">
+              <normaloff>:/icons/icon/x-circle 1.svg</normaloff>:/icons/icon/x-circle 1.svg</iconset>
             </property>
            </widget>
           </item>
@@ -1157,7 +1157,7 @@ border-radius: 20px;</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap resource="../resources.qrc">:/image/static/images/aquarium.png</pixmap>
+              <pixmap resource="../static/resources_1.qrc">:/image/images/aquarium.png</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -1423,8 +1423,8 @@ background-color: transparent;</string>
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset resource="../resources.qrc">
-                      <normaloff>:/icon/static/icon/trash-2.svg</normaloff>:/icon/static/icon/trash-2.svg</iconset>
+                     <iconset>
+                      <normaloff>:/icons/static/icon/trash-2.svg</normaloff>:/icons/static/icon/trash-2.svg</iconset>
                     </property>
                    </widget>
                   </item>
@@ -1679,8 +1679,8 @@ background-color: transparent;</string>
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset resource="../resources.qrc">
-                      <normaloff>:/icon/static/icon/trash-2.svg</normaloff>:/icon/static/icon/trash-2.svg</iconset>
+                     <iconset>
+                      <normaloff>:/icons/static/icon/trash-2.svg</normaloff>:/icons/static/icon/trash-2.svg</iconset>
                     </property>
                    </widget>
                   </item>
@@ -1915,8 +1915,8 @@ background-color: transparent;</string>
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset resource="../resources.qrc">
-                      <normaloff>:/icon/static/icon/trash-2.svg</normaloff>:/icon/static/icon/trash-2.svg</iconset>
+                     <iconset>
+                      <normaloff>:/icons/static/icon/trash-2.svg</normaloff>:/icons/static/icon/trash-2.svg</iconset>
                     </property>
                    </widget>
                   </item>
@@ -3241,8 +3241,8 @@ border-radius: 20px;</string>
                   <string/>
                  </property>
                  <property name="icon">
-                  <iconset resource="../resources.qrc">
-                   <normaloff>:/icon/static/icon/new_notes.svg</normaloff>:/icon/static/icon/new_notes.svg</iconset>
+                  <iconset resource="../static/resources_1.qrc">
+                   <normaloff>:/icons/icon/new_notes.svg</normaloff>:/icons/icon/new_notes.svg</iconset>
                  </property>
                  <property name="iconSize">
                   <size>
@@ -3740,7 +3740,8 @@ Telegram:</string>
   </widget>
  </widget>
  <resources>
-  <include location="../resources.qrc"/>
+  <include location="../static/resources_1.qrc"/>
+  <include location="../resources_1.qrc"/>
  </resources>
  <connections>
   <connection>
