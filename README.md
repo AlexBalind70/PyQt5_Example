@@ -51,7 +51,30 @@ The code also handles mouse events for window dragging and weather request when 
  
 </div>
 
+<h1 aligin="center"> №3-NotesApp</h1>
 
+"NoteWindow" is an application window with a frameless interface and a transparent background. 
+It allows the user to move the window around the screen by dragging it with the mouse. 
+The window includes a button that allows the user to close it.
+
+The "LoginWindow" displays an animated image and contains input fields for the username and password. When the "Login" button is pressed, 
+the entered data is verified. If the username is "admin" and the password is "0", the "MainPageWindow" opens. 
+The "LoginWindow" also has a button to close the entire application.
+
+"MainPageWindow" is an application window with a frameless interface and a transparent background. 
+It displays the main menu of the application. The user can select different sections by switching between them. 
+The window also includes a button to minimize and close the entire application. 
+When the "Add Note" button is pressed, the "NoteWindow" opens, allowing the user to create a new note.
+
+This application will continue to evolve in the future. There are plans to add functionality that allows users to download and install the program on their computers. 
+A repository will be provided on <a href="https://github.com/AlexBalind70/RacoonNote">GitHub<a/>  where users can access the latest version of the program. 
+Additionally, automatic program updates are planned to ensure that users always have the latest version with new features and bug fixes.
+
+<div id="header" align="center">
+
+  <img src="https://github.com/AlexBalind70/PyQt5_Example/assets/102526063/54400d4f-8a35-4206-b070-7dae93e62b2b"/>
+  
+</div>
 
 
 
