@@ -199,7 +199,7 @@ background-color: rgb(255, 255, 255);</string>
              <number>0</number>
             </property>
             <property name="currentIndex">
-             <number>0</number>
+             <number>1</number>
             </property>
             <widget class="QWidget" name="sign_up_Page">
              <layout class="QGridLayout" name="gridLayout_5">
@@ -797,12 +797,12 @@ background-color: rgb(105, 0, 255);
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>527</x>
-     <y>330</y>
+     <x>650</x>
+     <y>344</y>
     </hint>
     <hint type="destinationlabel">
-     <x>621</x>
-     <y>328</y>
+     <x>650</x>
+     <y>344</y>
     </hint>
    </hints>
   </connection>

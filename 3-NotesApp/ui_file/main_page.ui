@@ -916,7 +916,7 @@ color: rgb(255, 255, 255);</string>
        <item row="1" column="0">
         <widget class="QStackedWidget" name="stackedWidget">
          <property name="currentIndex">
-          <number>0</number>
+          <number>2</number>
          </property>
          <widget class="QWidget" name="page">
           <property name="styleSheet">
@@ -3755,8 +3755,8 @@ Telegram:</string>
      <y>57</y>
     </hint>
     <hint type="destinationlabel">
-     <x>134</x>
-     <y>45</y>
+     <x>184</x>
+     <y>90</y>
     </hint>
    </hints>
   </connection>
@@ -3767,12 +3767,12 @@ Telegram:</string>
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>159</x>
-     <y>108</y>
+     <x>189</x>
+     <y>142</y>
     </hint>
     <hint type="destinationlabel">
-     <x>182</x>
-     <y>100</y>
+     <x>189</x>
+     <y>142</y>
     </hint>
    </hints>
   </connection>
@@ -3783,12 +3783,12 @@ Telegram:</string>
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>141</x>
-     <y>159</y>
+     <x>189</x>
+     <y>196</y>
     </hint>
     <hint type="destinationlabel">
-     <x>181</x>
-     <y>146</y>
+     <x>189</x>
+     <y>196</y>
     </hint>
    </hints>
   </connection>
@@ -3799,12 +3799,12 @@ Telegram:</string>
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>143</x>
-     <y>197</y>
+     <x>189</x>
+     <y>250</y>
     </hint>
     <hint type="destinationlabel">
-     <x>185</x>
-     <y>189</y>
+     <x>189</x>
+     <y>250</y>
     </hint>
    </hints>
   </connection>
@@ -3815,12 +3815,12 @@ Telegram:</string>
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>68</x>
-     <y>195</y>
+     <x>118</x>
+     <y>250</y>
     </hint>
     <hint type="destinationlabel">
-     <x>26</x>
-     <y>199</y>
+     <x>37</x>
+     <y>236</y>
     </hint>
    </hints>
   </connection>
@@ -3831,12 +3831,12 @@ Telegram:</string>
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>81</x>
-     <y>159</y>
+     <x>131</x>
+     <y>196</y>
     </hint>
     <hint type="destinationlabel">
-     <x>25</x>
-     <y>159</y>
+     <x>36</x>
+     <y>187</y>
     </hint>
    </hints>
   </connection>
@@ -3847,12 +3847,12 @@ Telegram:</string>
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>63</x>
-     <y>108</y>
+     <x>113</x>
+     <y>142</y>
     </hint>
     <hint type="destinationlabel">
-     <x>20</x>
-     <y>109</y>
+     <x>31</x>
+     <y>138</y>
     </hint>
    </hints>
   </connection>
